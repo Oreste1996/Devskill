@@ -1,0 +1,10 @@
+.centro {text-align: center;}
+.tabella{text-align: center;
+           margin: auto;
+           width: 50%;
+}
+.descrizione {font-style: normal;
+}
+img.immagine{ display: block;
+
+    margin:0 auto;}
