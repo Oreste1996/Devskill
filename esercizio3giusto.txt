@@ -1,0 +1,21 @@
+let a:Number =prompt("Inserisci primo numero");
+
+let b:Number =prompt("inserisci secondo numero");
+
+let addizione:number;
+
+let sottrazione:number;
+
+let moltiplicazione:number;
+
+let divisione:number;
+
+addizione= (a*1)+(b*1);
+
+sottrazione= a-b;
+
+moltiplicazione= a*b;
+
+divisione= a/b;
+
+console.log(addizione , sottrazione , moltiplicazione , divisione) 
