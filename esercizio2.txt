@@ -1,0 +1,14 @@
+
+let primaparola:string =prompt("Inserisci la prima parola: ");
+
+let secondaparola:string =prompt("Inserisci la seconda parola: ");
+
+let concatenata1:string;
+
+let concatenata2:string;
+
+concatenata1=primaparola + secondaparola ;
+
+concatenata2=secondaparola + primaparola ;
+
+console.log(concatenata1 , concatenata2 )
