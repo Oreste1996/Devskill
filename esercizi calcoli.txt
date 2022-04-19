@@ -1,0 +1,92 @@
+ESERCIZIO 1 :
+
+let numero:number=prompt("Inserisci il numero");
+
+
+if (numero>=0){
+    console.log("Il numero è positivo");
+}
+    else if(numero<0){
+ console.log("Il numero è negativo")
+    }
+
+---------------------------------------------------------------------------------
+    
+ESERCIZIO 2 :
+
+let numero:number=prompt("Inserisci numero");                           
+
+
+
+if (numero % 2==0){
+    console.log("Il numero è pari");
+}
+else {
+    console.log("Il numero è dispari")
+}
+
+------------------------------------------------------------------------------
+
+ESERCIZIO 3 :
+
+let n1:number= prompt ("inserisci numero")*1;
+let n2:number= prompt ("inserisci numero")*1;
+let n3:number= prompt ("inserisci numero")*1;
+
+if (n1 > n2){
+    if (n1 > n3){
+        console.log("il numero più grande è:" + n1);
+    }
+}
+ else if (n2 > n3){
+    console.log("il numwero più grande è:" + n2);
+}
+else {console.log("Il numero più grande è:" +n3);
+
+}
+
+----------------------------------------------------------------------------
+ESERCIZIO 4 :
+let input:number=prompt("Inserisci  anno");
+
+let annocorrente=2022;
+
+let risultato
+
+if (input<annocorrente){
+    risultato=annocorrente-input
+    console.log(risultato)
+}
+
+---------------------------------------------------------------------------------
+ESERCIZIO 5:
+
+let anno:number=prompt("Inserisci un anno");
+
+if (anno%400==0){
+    console.log("E' bisestile");
+}
+else if(anno%4==0){
+    if(anno%100!=0){
+        console.log("E' bisestile");
+    }else{
+        console.log("Non è bisestile ")
+    }
+}else{
+    console.log("Non e' bisestile")
+}
+
+
+-------------------------------------------------------------------------------------
+
+ESERCIZIO 2 CON SWITCH :
+let numero:number=prompt("Inserisci un numero")*1;
+
+switch (numero %2){
+    case 0 :{console.log("Il numero è pari");break};
+default:{
+    console.log("E' dispari");break
+  }
+}
+
+
